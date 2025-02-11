@@ -12,8 +12,8 @@ function typeWriter(element, text, speed, callback) {
           document.querySelector(".cursor").style.opacity = "1";
           i++;
           typing();
-        }, 100);
-      }, 50);
+        }, 1);
+      }, 5);
     } else {
       element.innerHTML = text;
       if (callback) setTimeout(callback, 500);
